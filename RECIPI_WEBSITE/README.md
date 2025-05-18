@@ -10,9 +10,12 @@ A beginner-friendly recipe search application built with **HTML**, **CSS**, and 
 
 ---
 
+## 🚀 Live Demo
+Check out the live version of this project here:  
+👉 [Recipe Hub Online](https://recipehub-online.netlify.app)
 
 
-
+---
 
 ## 🚀 Features
 
