@@ -6,7 +6,7 @@ A simple and stylish web-based music player built with **HTML**, **CSS**, and **
 ## 📸 Screenshot
 
 Example:  
-> ![Music App Screenshot](./images/.musicApp.png)
+> ![Music App Screenshot](./images/musicApp.png)
 
 
 ## 🚀 Live Demo
@@ -69,6 +69,14 @@ Follow these steps to run or understand the music player locally.
 └── style.css
 └── README.md        <-- This file
 ```
+
+---
+
+## 🌐 Browser Compatibility
+
+This music player is primarily designed for modern web browsers such as Chrome, Firefox, Safari, and Edge. While it may function in older browsers, full compatibility is not guaranteed.
+
+---
 
 ## 🕹️ Usage
 
