@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <img src="Assests/playlist.svg" alt="playlist" id="playlist-image">
+    <h2>FEEL THE MUSIC</h2>
+    <img src="Assests/Music.svg" alt="music" id="music-image">
+  </header>
+
+  <main>
+    <div class="left">
+      <!-- song-images -->
+<div class="song-image">
+<img src="./Assests/musicanim.webp" alt="anim"  id="musicanim">
+</div>
+<!-- song-images -->
+
+ <!-- volume div -->
+<div class="volume-div">
+  <!-- volume image -->
+  <div class="volume-img">
+    <img src="./Assests/Volume.svg" alt="volume" id="vol-svg"> 
+  </div>
+  <input type="range" id="volume-range" onChange="volume()">
+ <!-- volume image -->
+</div>
+  <!-- volume div -->
+    </div>
+
+    <!-- right section starts -->
+    <div class="right">
+<div class="details">
+  <h3 id="song_name">
+    ve kamleya
+  </h3>
+  <h5 id="song_singer">
+    Arijit Singh
+  </h5>
+</div>
+<input type="range" id="song_duration" onchange="duration()">
+<div class="controls">
+  <div class="prev_img">
+    <img src="./Assests/previous.svg" alt="prev" id="prev-img" onclick="previousSong()">
+  </div>
+  <div class="play_pause">
+    <img src="./Assests/play.svg" alt="play" id="play_pause" onclick="playPause()">
+  </div>
+<div class="next_img">
+    <img src="./Assests/next.svg" alt="" id="next_img" onclick="nextSong()">
+  </div>
+  
+  
+</div>
+    </div>
+
+    <div class="playlist">
+     <div class="playlist-song">
+      <img src="./Assests/image1.jpg" alt="img">
+      <div class="song-details">
+        <h3>Ve kamleya</h3>
+        <h5>Arijit singh</h5>
+        </div>
+       </div>
+
+     <div class="playlist-song">
+ <img src="./Assests/image2.jpg" alt="img">
+      <div class="song-details">
+        <h3>Apana Bana Le</h3>
+        <h5>Arijit singh</h5>
+      
+      </div>
+     </div>
+
+
+     <div class="playlist-song">
+ <img src="./Assests/image3.jpg" alt="img">
+      <div class="song-details">
+        <h3>Pehale Bhi Me</h3>
+        <h5>Vishal Mishra</h5>
+      
+      </div>
+     </div>
+
+     <div class="playlist-song">
+ <img src="./Assests/image4.jpg" alt="img">
+      <div class="song-details">
+        <h3>satranga</h3>
+        <h5>Arijit singh</h5>
+      
+      </div>
+     </div>
+
+    </div>
+  </main>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
