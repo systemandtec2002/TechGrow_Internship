@@ -6,6 +6,13 @@ let kelvinInput = document.querySelector('#kelvin > input');
 
 let btn = document.querySelector('.button button');
 
+
+function roundNumber(number){
+    return Math.round(number*100)/100
+}
+
+
+
 celsiusInput.addEventListener('input', function(){
 let cTemp = parseFloat(celsiusInput.value);
 let fTemp = (cTemp*(9/5) + 32);
@@ -35,7 +42,7 @@ let fTemp = (kTemp - 273.15 * (9/5) + 32);
 let cTemp = kTemp - 273.15
 
 celsiusInput.value = roundNumber(cTemp)
-kelvinInput.value = roundNumber(kTemp)
+farenheightInput.value = roundNumber(fTemp)
 })
 
 btn.addEventListener('click',() => {
