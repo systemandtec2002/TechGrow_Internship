@@ -6,7 +6,9 @@ A beginner-friendly temperature conversion app built using HTML, CSS, and JavaSc
 📸 Screenshot
 Example:
 
-(./images/temparature-convertor-screenshot.png)
+! [temparature convertor screenshot](./images/temparature-convertor-screenshot.png)
+
+
 
 
 ## 🚀 Live Demo
