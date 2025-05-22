@@ -1,16 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>URL Shortener Landing page </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-<div class="hero-content">
-   <h1>🔗 ShortLink</h1>
-      <p>Shorten long URLs into smart, shareable links in seconds.</p>
-</div>
-  </header>
+    <header>
+        <h1>Instant URL Shortener</h1>
+    </header>
+
+    <main class="container">
+        <section class="shortener-section">
+            <h2>Make Your Links Shareable!</h2>
+            <div class="input-group">
+                <input type="url" id="longUrlInput" placeholder="Enter your long URL here..." required>
+                <button id="shortenBtn">Shorten URL</button>
+            </div>
+            <p id="errorMessage" class="error-message"></p>
+
+            <div class="result-box" id="resultBox">
+                <p>Shortened URL:</p>
+                <a href="#" target="_blank" id="shortenedUrlOutput"></a>
+                <button id="copyBtn">Copy</button>
+                <span id="copySuccess" class="copy-success">Copied!</span>
+            </div>
+        </section>
+
+        <section class="how-it-works-section">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Paste Your URL</h3>
+                    <p>Copy and paste your long link into the input field above.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Click Shorten</h3>
+                    <p>Hit the "Shorten URL" button and let our magic happen.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Copy & Share</h3>
+                    <p>Instantly get your shortened link and share it anywhere!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Instant URL Shortener. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
