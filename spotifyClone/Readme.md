@@ -20,7 +20,7 @@ A beginner-friendly Spotify-inspired music player built using **HTML**, **CSS**,
 ## 🚀 Live Demo
 
 Check out the live version of the project here:  
-👉 [Live Demo](https://app.netlify.com/projects/melofy-app/overview)
+👉 [spotify live demo](https://melofy-app.netlify.app/)
 
 ---
 
