@@ -45,11 +45,11 @@ upperAudio.forEach(function(element){
 element.addEventListener('click',function(e){
 console.log(element);
   if(element.classList[2] == "fa-circle-play"){
-
-  
- 
-  element.classList.remove("fa-circle-play")
+element.classList.remove("fa-circle-play")
   element.classList.add("fa-circle-pause");
+
+
+songName.innerText = element.parentElement.previousElementSibling.innerText;
 
 let index = e.target.id;
 console.log(index);
