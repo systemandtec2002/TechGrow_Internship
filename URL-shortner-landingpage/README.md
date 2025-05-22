@@ -13,7 +13,7 @@ A modern, responsive, and feature-rich **URL shortening landing page** built wit
 
 ## 🚀 Live Demo
 
-👉 [ProLink Online](https://prolink-online.netlify.app)
+👉 [URL SHORTENER LIVE DEMO](https://spiffy-pavlova-186833.netlify.app/)
 
 
 ---
