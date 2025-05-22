@@ -6,7 +6,7 @@ A modern, responsive, and feature-rich **URL shortening landing page** built wit
 
 ## 📸 Screenshot
 
-![URL-shortener App Screenshot](./images/URL-shortener-Screenshot.png)
+![URL-shortener App Screenshot](./images/URL-shortner-Screenshot.png)
 
 
 ---
