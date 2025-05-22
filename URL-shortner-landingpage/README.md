@@ -6,8 +6,8 @@ A modern, responsive, and feature-rich **URL shortening landing page** built wit
 
 ## 📸 Screenshot
 
-![ProLink App Screenshot](./images/URL-shortener-Screenshot.png)
-*(Note: Replace with an actual screenshot of your application)*
+![URL-shortener App Screenshot](./images/URL-shortener-Screenshot.png)
+
 
 ---
 
